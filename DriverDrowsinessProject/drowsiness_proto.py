@@ -15,7 +15,7 @@ auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 TWILIO_PHONE_NUMBER = '+918686160750'   # Twilio number
 EMERGENCY_NUMBER = '911'    # Recipient number
 
-client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+client = Client(account_sid, auth_token)
 
 def send_emergency_sms():
     try:
