@@ -26,7 +26,6 @@ python drowsiness_proto.py
 
 ## 🔐 Environment Variables
 Create a `.env` file and add:
-
 TWILIO_ACCOUNT_SID=your_sid  
 TWILIO_AUTH_TOKEN=your_token
 
